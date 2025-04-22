@@ -492,6 +492,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e8e840-171d-43e7-8593-a70c5bd87949")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e78bdff-ca92-45a7-9e66-f1bfd09ce4dc")
+	)
+	(wire
+		(pts
 			(xy 87.63 110.49) (xy 87.63 118.11)
 		)
 		(stroke
@@ -519,16 +539,6 @@
 			(type default)
 		)
 		(uuid "61596f0b-699c-47a4-a0f0-4e5bb84ab959")
-	)
-	(wire
-		(pts
-			(xy 87.63 85.09) (xy 105.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b29b0f2-aeda-4a14-8993-bb12ff11f782")
 	)
 	(wire
 		(pts
@@ -702,6 +712,83 @@
 			(project ""
 				(path "/843f161b-4419-4ad9-a4d0-822448de2c5a"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa03f4ac-aeae-4961-96ba-83f1051fe38b")
+		(property "Reference" "D2"
+			(at 96.2025 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.2025 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cb2d636-6a26-4b45-bd33-8191a33c9722")
+		)
+		(pin "1"
+			(uuid "cf984ccc-e8e1-4b4c-bf38-37c1f86c00ec")
+		)
+		(instances
+			(project "basic"
+				(path "/843f161b-4419-4ad9-a4d0-822448de2c5a"
+					(reference "D2")
 					(unit 1)
 				)
 			)
