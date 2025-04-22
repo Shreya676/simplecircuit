@@ -490,6 +490,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 121.92 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "552874f3-28d1-41f1-8f13-58c6287355c3")
+	)
+	(junction
+		(at 87.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57440843-63c3-4977-b5f6-ec442cde9b71")
+	)
 	(wire
 		(pts
 			(xy 87.63 85.09) (xy 93.98 85.09)
@@ -532,6 +544,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb46d7f-72a1-427e-a573-2e885dd991cb")
+	)
+	(wire
+		(pts
 			(xy 113.03 85.09) (xy 121.92 85.09)
 		)
 		(stroke
@@ -569,6 +591,46 @@
 			(type default)
 		)
 		(uuid "c5679799-6aac-4dcc-9a01-b077553d53a6")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfadea6f-7de9-4c8a-9667-3cb7ebdd6766")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c99210-31fa-450b-bafd-eef50e506965")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cfca8f-4ad0-4405-a938-ea457cd6c338")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5c8fd9-75f8-437d-8dbb-f2836f37c14f")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -712,6 +774,160 @@
 			(project ""
 				(path "/843f161b-4419-4ad9-a4d0-822448de2c5a"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d050f42-8965-44d9-bd82-5f92878693b4")
+		(property "Reference" "D3"
+			(at 96.2025 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.2025 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "226c05ec-3d55-4924-9cfd-642a58603c47")
+		)
+		(pin "1"
+			(uuid "abda16d4-fddb-4659-a938-0987504c6f8d")
+		)
+		(instances
+			(project "basic"
+				(path "/843f161b-4419-4ad9-a4d0-822448de2c5a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 109.22 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac7cd60-82a4-4829-a6dc-30b0ab7e7596")
+		(property "Reference" "D4"
+			(at 107.6325 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 107.6325 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7974be37-be93-4c76-be7f-b74cb636b8a0")
+		)
+		(pin "1"
+			(uuid "6277c9be-c750-4530-8038-2a33f628bb15")
+		)
+		(instances
+			(project "basic"
+				(path "/843f161b-4419-4ad9-a4d0-822448de2c5a"
+					(reference "D4")
 					(unit 1)
 				)
 			)
